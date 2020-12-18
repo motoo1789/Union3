@@ -1,0 +1,113 @@
+id：1  FeatureName Inheritance  Sender：PrintBanner  Sendee：Print
+id：2  FeatureName Aggregation  Sender：PrintBanner  Sendee：Banner
+id：4  FeatureName OverRide  Sender：PrintBanner  Sendee：Print
+
+途中結果   class: {A=Banner, B=Main, C=Print}
+error number: 1
+id�F 1   AdapterからTargetにInheritanceにする
+id�F 1   AdapterからAdapteeにForwardingにする
+id�F 1   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 2
+id�F 2   AdapterからTargetにInheritanceにする
+id�F 2   AdapterからAdapteeにForwardingにする
+id�F 2   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 3
+id�F 3   AdapterからTargetにInheritanceにする
+id�F 3   AdapterからAdapteeにForwardingにする
+id�F 3   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 4
+id�F 4   AdapterからTargetにInheritanceにする
+id�F 4   AdapterからAdapteeにForwardingにする
+id�F 4   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 5
+id�F 5   AdapterからTargetにInheritanceにする
+id�F 5   AdapterからAdapteeにForwardingにする
+id�F 5   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 6
+id�F 6   AdapterからTargetにInheritanceにする
+id�F 6   AdapterからAdapteeにForwardingにする
+id�F 6   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+途中結果   class: {A=Banner, B=Main, C=PrintBanner}
+id：1  FeatureName Aggregation  Sender：C  Sendee：A
+error number: 1
+id�F 1   AdapterからTargetにInheritanceにする
+id�F 1   AdapterからAdapteeにForwardingにする
+id�F 1   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 2
+id�F 2   AdapterからTargetにInheritanceにする
+id�F 2   AdapterからAdapteeにForwardingにする
+id�F 2   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 3
+id�F 3   AdapterからTargetにInheritanceにする
+id�F 3   AdapterからAdapteeにForwardingにする
+id�F 3   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 4
+id�F 4   AdapterからTargetにInheritanceにする
+id�F 4   AdapterからAdapteeにForwardingにする
+id�F 4   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 5
+id�F 5   AdapterからTargetにInheritanceにする
+id�F 5   AdapterからAdapteeにForwardingにする
+id�F 5   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 6
+id�F 6   AdapterからTargetにInheritanceにする
+id�F 6   AdapterからAdapteeにForwardingにする
+id�F 6   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 7
+id�F 7   AdapterからTargetにInheritanceにする
+id�F 7   AdapterからAdapteeにForwardingにする
+id�F 7   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 8
+id�F 8   AdapterからTargetにInheritanceにする
+id�F 8   AdapterからAdapteeにForwardingにする
+id�F 8   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 9
+id�F 9   AdapterからTargetにInheritanceにする
+id�F 9   AdapterからAdapteeにForwardingにする
+id�F 9   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 10
+id�F 10   AdapterからTargetにInheritanceにする
+id�F 10   AdapterからAdapteeにForwardingにする
+id�F 10   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 11
+id�F 11   AdapterからTargetにInheritanceにする
+id�F 11   AdapterからAdapteeにForwardingにする
+id�F 11   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+error number: 12
+id�F 12   AdapterからTargetにInheritanceにする
+id�F 12   AdapterからAdapteeにForwardingにする
+id�F 12   AdapterからTargetにOverRideにする
+------------------------------------------------------------------
+途中結果   class: {A=Banner, B=Print, C=PrintBanner}
+id：1  FeatureName Inheritance  Sender：C  Sendee：B
+id：2  FeatureName Aggregation  Sender：C  Sendee：A
+id：3  FeatureName OverRide  Sender：C  Sendee：B
+error number: 1
+id�F 16   AdapterからAdapteeにForwardingにする
+------------------------------------------------------------------
+途中結果   class: {A=Main, B=Print, C=PrintBanner}
+id：1  FeatureName Inheritance  Sender：C  Sendee：B
+id：2  FeatureName OverRide  Sender：C  Sendee：B
+error number: 1
+id�F 16   AdapterからAdapteeにForwardingにする
+------------------------------------------------------------------
+error number: 2
+id�F 22   AdapterからAdapteeにForwardingにする
+------------------------------------------------------------------
